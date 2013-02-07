@@ -6,7 +6,31 @@
 <script>
 var borg = new screenBorg();
 borg.init();
-borg.Window("Hola");
+
+
+
+borg.Window({
+    title : "Wellcome to ScreenBorg",
+    text : "Bienvenido a la version de desarrollo de <b>ScreenBorg</b>.<br><br>Hay varias caracteristicas que deberias revisar : <br><br><ul><li>Menu Principal</li><li>La Barra de Tareas</li><li>El Comportamiento de las Ventanas.</li></ul>",
+    top : 50,
+    left : 20,
+    width : 350,
+    height : 300,
+    movel : { speed: 0.5,x : 600}
+});
+
+borg.Window({
+    title : "Prueba1",
+    text : "Probando lo lindo de <b>ScreenBorg</b>",
+    top : 300,
+    left : 700,
+    width : 300,
+    height : 300,
+    movel : { speed: 0.5,x : 100}
+});
+
+
+
 </script>
 </body>
 </html>
